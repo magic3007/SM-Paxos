@@ -13,4 +13,4 @@ pip install -r requirements.txt
 ```bash
 python -m grpc_tools.protoc -I ./ --python_out=./ --grpc_python_out=. ./kv.proto
 ```
-If you finish running this command without error, you will see two new files `kv_pb2_grpc.py` and `ky_pb2.py` in current directory.
+If you finish running this command without error, you will see two new files `kv_pb2_grpc.py` and `ky_pb2.py` in the current directory.
