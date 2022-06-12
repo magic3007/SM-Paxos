@@ -1,0 +1,3 @@
+
+class PaxosKV(object):
+    pass 
