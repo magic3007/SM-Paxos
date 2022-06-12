@@ -59,7 +59,6 @@ class KVClient(object):
         oData.ParseFromString(sBuffer)
         bValue = oData.value
         iVersion = oData.version
-        bIsDeleted = oData.is_deleted
         logging.info(f"OK, key {sKey}, value {bValue}, version {iVersion}")
         return KVClientRet.OK, bValue, iVersion
     

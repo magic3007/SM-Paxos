@@ -24,5 +24,4 @@ message KVResponse {
 message KVData {
   bytes  value      = 1;
   uint64 version    = 2;
-  bool   is_deleted = 3;
 }
