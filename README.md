@@ -1,2 +1,3 @@
 # SM-Paxos
-A State Machine asynchronous consensus protocol based on Paxos protocol
+🕹 A **S**tate **M**achine asynchronous consensus protocol based on **Paxos** protocol.
+
